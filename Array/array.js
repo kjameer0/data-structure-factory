@@ -1,3 +1,5 @@
 class Array2 {
-  constructor() {}
+  constructor() {
+    this.length = 0
+  }
 }
