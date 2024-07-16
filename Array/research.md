@@ -15,10 +15,7 @@ For each of the questions below, use the provided article and your own independe
 5. What is the time complexity for the following operations in a dynamic array data structure?
    1. Searching(looking for something when you don't know an index)
    2. Updating(changing or adding a value) when you know the index
-   3. Deleting(removing a value(not like splice)) when you know the index
-   4. Deleting like splice
-   5. Accessing (retrieving a value) when you know an index
+   3. Deleting like splice
+   4. Accessing (retrieving a value) when you know an index
 
 ### What is an Abstract Data Type?
-
-
