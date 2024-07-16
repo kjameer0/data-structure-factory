@@ -20,4 +20,3 @@ For each of the questions below, use the provided article and your own independe
 
 ### What is an Abstract Data Type?
 
-An array is
