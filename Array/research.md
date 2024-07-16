@@ -8,10 +8,11 @@ For each of the questions below, use the provided article and your own independe
 ## Questions(Write out you answers under separate headings)
 
 0. What is an Abstract Data Type?
-1. What is an array?
-2. What is the difference between a dynamic and a static array?
-3. What core operations can a dynamic array do?
-4. What is the time complexity for the following operations in a dynamic array data structure?
+1. What is a Data Structure?
+2. What is an array?
+3. What is the difference between a dynamic and a static array?
+4. What core operations can a dynamic array do?
+5. What is the time complexity for the following operations in a dynamic array data structure?
    1. Searching(looking for something when you don't know an index)
    2. Updating(changing or adding a value) when you know the index
    3. Deleting(removing a value(not like splice)) when you know the index
@@ -19,4 +20,5 @@ For each of the questions below, use the provided article and your own independe
    5. Accessing (retrieving a value) when you know an index
 
 ### What is an Abstract Data Type?
+
 
