@@ -19,3 +19,49 @@ For each of the questions below, use the provided article and your own independe
    4. Accessing (retrieving a value) when you know an index
 
 ### What is an Abstract Data Type?
+
+An abstract data type is a way of describing a data structure as basically an interface. It emphasizes behavior and NOT implementation. So it is inaccurate to say that an ADT has a specific time complexity for a specific operation.
+
+### What is a Data Structure?
+
+A data structure implements a data type. Data structures can implement ADTs in different ways, so the same functions can have different time and space complexities across different implementations.
+
+### What is an array?
+
+Arrays are defined as being a collection or body of elements that are accessed by an index. Any type can theoretically be stored in an array, though some languages that implement arrays may only allow one type to be stored in a slot at a time. Arrays need to be able to set and values at indices to be considered arrays.
+
+### What core operations can an Array do?
+
+#### Traversal
+
+You can move over the indices in an array and read all of the values.
+
+#### Search
+
+During a traversal you can look at different values and seek out a particular value in the array.
+
+#### Read and update
+
+You can read change values at different indices in the array.
+
+### What is the difference between a dynamic and static array?
+
+Static arrays have a specific and unchangeable size. Dynamic arrays allow the size of the array to be changed if the final size of the array is unknown. This introduces time complexity ramifications to adding to an array. In JS, which uses dynamic arrays, pushing a new value can cause the original array to be copied and moved to a different, more free space in memory to accommodate the increased size.
+
+### What is the time complexity for the following operations in a dynamic array data structure?
+
+#### Searching(looking for something when you don't know an index)
+
+O(n). If the array has no pattern to its ordering you have to look over every element.
+
+#### Updating(changing or adding a value) when you know the index
+
+O(1). You go to that place in memory and alter a value.
+
+#### Deleting like splice
+
+O(n). You have to reassign all of the other indices in the array to maintain the index order.
+
+#### Accessing (retrieving a value) when you know an index
+
+O(1). This is just going to an index location and grabbing the value.
